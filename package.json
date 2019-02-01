@@ -1,0 +1,27 @@
+{
+  "name": "to-do",
+  "version": "1.0.0",
+  "description": "Small web application which allows users to create, modify, and remove a To-Do list using Express and Node.js",
+  "main": "lib/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyc61298/To-Do.git"
+  },
+  "author": "Jeremy Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremyc61298/To-Do/issues"
+  },
+  "homepage": "https://github.com/jeremyc61298/To-Do#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "g": "^2.0.1",
+    "morgan": "^1.9.1",
+    "session-file-store": "^1.2.0"
+  }
+}
